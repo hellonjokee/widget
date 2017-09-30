@@ -1,0 +1,92 @@
+.PopularPosts .item-thumbnail{
+	float:none;
+	margin:0 0 10px}
+
+.PopularPosts .item-title{
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	display:block;
+	clear:both;
+	z-index:50;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	padding:15px;
+	transition:all .4s;}
+
+.PopularPosts .item-title:hover{
+	background:rgba(0,0,0,.2)}
+	
+.PopularPosts .item-title a{
+	color:rgba(255,255,255,0);
+	font-weight:700;
+	font-size:120%;
+	text-shadow:0 0 5px rgba(0,0,0,0)}
+	
+.PopularPosts .item-title:hover a
+.PopularPosts .item-title a:hover{
+	color:rgba(255,255,255,1);
+	text-shadow:0 0 5px rgba(0,0,0,.3)}
+	
+.PopularPosts .widget-content ul li img{
+	translate(0,0) scale(1.0);
+	transition:all .8s linear}
+	
+.PopularPosts .widget-content ul li:hover img{
+	transform:translate(0,-20px) scale(1.05);
+	transition:all 3.6s linear;}
+	
+.PopularPosts img{
+	display:block;
+	height:auto;
+	width:100%;
+	padding:0;
+	backface-visibility:hidden;}
+	
+.PopularPosts .item-snippet{
+	display:none;}
+	
+.PopularPosts ul li .item-content{
+	position:relative;
+	overflow:hidden;}
+	
+.PopularPosts ul{
+	padding:0;
+	line-height:normal;}
+	
+.PopularPosts .widget-content ul li{
+	position:relative;
+	padding:10px 0;
+	overflow:hidden;
+	max-height:70px;
+	transition:all .4s;}
+	
+.PopularPosts .widget-content ul li:hover:before{
+	right:-55px;}
+.PopularPosts ul li:nth-child(1) .item-title {
+	background:rgba(221,25,29,0.5);}
+	
+.PopularPosts ul li:nth-child(2) .item-title {
+	background:rgba(141,187,144,0.5);}
+	
+.PopularPosts ul li:nth-child(3) .item-title {
+	background:rgba(39,169,255,0.5);}
+	
+.PopularPosts ul li:nth-child(4) .item-title {
+	background:rgba(192,202,51,0.5);}
+	
+.PopularPosts ul li:nth-child(5) .item-title {
+	background:rgba(26,35,126,0.5);}
+	
+.PopularPosts ul li:nth-child(6) .item-title {
+	background:rgba(0,188,212,0.5);}
+	
+.PopularPosts ul li:nth-child(1) .item-title:hover
+.PopularPosts ul li:nth-child(2) .item-title:hover
+.PopularPosts ul li:nth-child(3) .item-title:hover
+.PopularPosts ul li:nth-child(4) .item-title:hover
+.PopularPosts ul li:nth-child(5) .item-title:hover
+.PopularPosts ul li:nth-child(6) .item-title:hover{
+	background:rgba(0,0,0,0.2);}
+	
