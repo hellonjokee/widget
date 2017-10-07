@@ -1,0 +1,43 @@
+body {background: #e35d6a; margin: 100px 200px}
+img {padding: 0; width: 100%; height: auto;}
+.blog > .post {background: #fff; padding: 0;}
+.blog {display: grid; grid-template-columns: repeat(2, 1fr); grid-column-gap: 1.5em;}
+.title {font: 36px /1.2 'Fjalla One', sans-serif; text-align: center; text-transform: uppercase; padding: 20px;}
+.snippet {font: 18px /1.2 'Poppins', sans-serif; letter-spacing: 0.3px; text-align: justify; padding: 0 25px 15px;}
+
+.post-footer {display: grid; grid-template-columns: repeat(4, 1fr); grid-column-gap: 1px; padding: 1px;}
+.post-footer > div {padding: 15px 46px; text-align: center;}
+.author {grid-column:1/2;}
+.post-labels {grid-column:2/3;}
+.comments {grid-column:3/4;}
+.readmore {grid-column:4/5;}
+
+.author span, 
+.post-labels span, 
+.comments span, 
+.readmore span {cursor: pointer; display: inline-block; position: relative; transition: 0.5s;}
+
+.author span:after {position: absolute; opacity: 0; top: 0; right: -20px; transition: 0.5s;}
+.post-labels span:after { position: absolute; opacity: 0; top: 0; right: -20px; transition: 0.5s;}
+.comments span:after {position: absolute; opacity: 0; top: 0; right: -20px; transition: 0.5s;} 
+.readmore span:after {position: absolute; opacity: 0; top: 0; right: -20px; transition: 0.5s;}
+
+.author:hover, 
+.post-labels:hover, 
+.comments:hover, 
+.readmore:hover {background: #bbb} 
+
+.author, 
+.post-labels, 
+.comments, 
+.readmore {border: none; border-radius: 4px; color: #f0f; cursor: pointer; display: inline-block; font-size: 18px; margin: 2px; padding: 5px; text-align: center; transition: all 0.5s; vertical-align: middle; width: 70px;} 
+
+.dot {border-radius: 50%; background-color: #bbb; display: inline-block; height: 70px; width: 70px;}
+.box {background-color: #bbb; display: inline-block; height: 40px; width: 70px;}
+
+
+.button {background-color: #f4511e;	border: none; border-radius: 4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size: 28px; margin: 5px; padding: 20px; text-align: center; transition: all 0.5s; vertical-align: middle; width: 200px;}
+
+.button span:after {}
+.button:hover span 
+.button:hover span:after {opacity: 1; right: 0;}
